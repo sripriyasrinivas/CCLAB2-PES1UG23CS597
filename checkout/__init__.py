@@ -11,8 +11,5 @@ def checkout_logic():
 
     total = 0
     for e in events:
-        d=0
-        for i in range(100000):
-            d+=1
         total+=e[0]
     return total
